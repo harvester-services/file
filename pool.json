@@ -19,7 +19,8 @@
             "diskSizeGB": 512,
             "lun": 1,
             "storageAccountType": "Premium_LRS"
-          },       
+          }
+        ],
     },
     "resizeTimeout": "PT15M",
     "currentDedicatedNodes": 0,
