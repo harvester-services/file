@@ -1,6 +1,6 @@
 {
     "id": "Pool",
-    "vmSize": "standard_f2",
+    "vmSize": "Standard_F4s_v2",
     "virtualMachineConfiguration": {
         "imageReference": {
             "publisher": "canonical",
