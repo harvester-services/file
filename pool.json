@@ -9,6 +9,17 @@
             "version": "latest"
         },
         "nodeAgentSKUId": "batch.node.ubuntu 18.04"
+        "dataDisks": [
+          {
+            "diskSizeGB": 512,
+            "lun": 0,
+            "storageAccountType": "Premium_LRS"
+          },
+          {
+            "diskSizeGB": 512,
+            "lun": 1,
+            "storageAccountType": "Premium_LRS"
+          }       
     },
     "resizeTimeout": "PT15M",
     "currentDedicatedNodes": 0,
