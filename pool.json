@@ -25,8 +25,8 @@
     "resizeTimeout": "PT15M",
     "currentDedicatedNodes": 0,
     "currentLowPriorityNodes": 0,
-    "targetDedicatedNodes": 4,
-    "targetLowPriorityNodes": 5,
+    "targetDedicatedNodes": 1,
+    "targetLowPriorityNodes": 0,
     "enableAutoScale": false,
     "enableInterNodeCommunication": false,
     "networkConfiguration": {
@@ -36,7 +36,7 @@
         }
     },
     "startTask": {
-        "commandLine": "df -h ; pwd",
+        "commandLine": "/bin/bash -c \"df -h ; pwd\"" ,
         "userIdentity": {
             "autoUser": {
                 "scope": "task",
