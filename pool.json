@@ -1,6 +1,6 @@
 {
     "id": "Pool",
-    "vmSize": "Standard_F4s_v2",
+    "vmSize": "Standard_D4s_v3",
     "virtualMachineConfiguration": {
         "imageReference": {
             "publisher": "canonical",
@@ -25,7 +25,7 @@
     "resizeTimeout": "PT15M",
     "currentDedicatedNodes": 0,
     "currentLowPriorityNodes": 0,
-    "targetDedicatedNodes": 10,
+    "targetDedicatedNodes": 4,
     "targetLowPriorityNodes": 5,
     "enableAutoScale": false,
     "enableInterNodeCommunication": false,
